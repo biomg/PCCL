@@ -2,9 +2,7 @@
 In our study, we propose a parallel convolutional contrastive learning model called PCCLM for predicting the EC number of enzymes.
 # Dependency:
 python 3.10.4
-
 pytorch 1.11.0 
-
 cudatoolkit 11.3
 matplotlib 3.7.0
 numpy 1.22.3
