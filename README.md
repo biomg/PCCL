@@ -25,9 +25,10 @@ Now it supports GPUs. The code support GPUs and CPUs, it automatically check whe
 
 # Training and testing:
 
-Before training, we need to preprocess the training and test sets: <br>
-python pre-train.py <br>
+1.Before training, we need to preprocess the training and test sets: <br>
+ python pre-train.py <br>
 
+ pre-train.py:<br>
   csv_to_fasta("data/split100.csv", "data/split100.fasta") <br>
   retrive_esm2_embedding(train_file) <br>
   train_fasta_file = mutate_single_seq_ECs_forESM2(train_file) <br>
@@ -38,8 +39,11 @@ python pre-train.py <br>
   test_data_new = "new" <br>
   retrive_esm2_embedding(test_data_new) <br>
   retrive_esm2_embedding(test_data_price) <br>
+  
+2. Please create a folder "results_esm2"
 
-Train the model. It is automatically tested every 1000 epochs. <br>
+3.Train the model. It is automatically tested every 1000 epochs. <br>
+
 python ./train-triplet-cnn3.py --training_data split100 --model_name split100_triplet_cnn3 --epoch 15000 <br>
 # Contact:
 Xindi Yu: yuxindi53@foxmail.com
