@@ -25,7 +25,7 @@ Now it supports GPUs. The code support GPUs and CPUs, it automatically check whe
 
 # Training and testing:
 
-1.Before training, we need to preprocess the training and test sets: <br>
+1. Before training, we need to preprocess the training and test sets: <br>
  python pre-train.py <br>
 
  pre-train.py:<br>
@@ -42,7 +42,7 @@ Now it supports GPUs. The code support GPUs and CPUs, it automatically check whe
 
 2. Please create a folder "results_esm2"
 
-3.Train the model. It is automatically tested every 1000 epochs. <br>
+3. Train the model. It is automatically tested every 1000 epochs. <br>
 
 python ./train-triplet-cnn3.py --training_data split100 --model_name split100_triplet_cnn3 --epoch 15000 <br>
 # Contact:
