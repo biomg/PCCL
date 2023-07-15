@@ -27,6 +27,7 @@ Now it supports GPUs. The code support GPUs and CPUs, it automatically check whe
 
 Before training, we need to preprocess the training and test sets: <br>
 python pre-train.py <br>
+
   csv_to_fasta("data/split100.csv", "data/split100.fasta") <br>
   retrive_esm2_embedding(train_file) <br>
   train_fasta_file = mutate_single_seq_ECs_forESM2(train_file) <br>
