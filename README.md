@@ -39,7 +39,7 @@ Now it supports GPUs. The code support GPUs and CPUs, it automatically check whe
   test_data_new = "new" <br>
   retrive_esm2_embedding(test_data_new) <br>
   retrive_esm2_embedding(test_data_price) <br>
-  
+
 2. Please create a folder "results_esm2"
 
 3.Train the model. It is automatically tested every 1000 epochs. <br>
