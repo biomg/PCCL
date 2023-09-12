@@ -1,5 +1,5 @@
-# PCCL: A parallel convolutional contrastive learning model for enzyme function prediction
-In our study, we propose a parallel convolutional contrastive learning model called PCCLM for predicting the EC number of enzymes.
+# PCCL: Parallel convolutional contrastive learning method for enzyme function prediction
+In our study, we propose a parallel convolutional contrastive learning method called PCCL for predicting the EC number of enzymes.
 # Dependency:
 python 3.10.4 <br>
 pytorch 1.11.0 <br>
