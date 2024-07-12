@@ -684,5 +684,3 @@ class InstanceNorm(nn.Module):
         x = torch.relu(x)
         x = self.fc3(x)
         return x
- 
-
